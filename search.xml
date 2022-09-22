@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>shell脚本基础用法</title>
+      <link href="/2022/09/22/shell%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95/"/>
+      <url>/2022/09/22/shell%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="shell脚本基础用法"><a href="#shell脚本基础用法" class="headerlink" title="shell脚本基础用法"></a>shell脚本基础用法</h1><h2 id="用例为hexo"><a href="#用例为hexo" class="headerlink" title="用例为hexo"></a>用例为hexo</h2><ol><li><p>编写一个脚本</p><p>一般为.sh结尾，也可为txt或者不加后缀</p><p>#后的字符可以作为注释</p><ul><li>hexo.sh</li></ul><pre class=" language-shell"><code class="language-shell">#！/bin/bash# 上面`#!`为一种约定标记，它告诉系统这个脚本需要用什么样的解释器运行# 以下为执行的代码hexo cleanhexo g # 生成静态文件hexo s # 运行服务</code></pre></li><li><p>给文件授权 chmod +x  ./hexo.sh</p><p>不然运行不了</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+          <category> shell </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> shell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>java-Spring</title>
       <link href="/2022/09/19/java-Spring/"/>
       <url>/2022/09/19/java-Spring/</url>
